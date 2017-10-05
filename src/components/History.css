@@ -1,0 +1,43 @@
+.wrap {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.history-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.history-container > div {
+  line-height: 0;
+}
+
+.h-content {
+  width: 580px;
+  padding: 80px 0 0 0;
+}
+.line {
+  display: inline-block;
+  width: 40px;
+  height: 3px;
+  background: #cb5333;
+  margin: 0 20px 9px 0;
+}
+
+.h-content h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.h-content p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  padding-right: 125px;
+}
+
+.photo-section > div {
+  line-height: 0;
+}

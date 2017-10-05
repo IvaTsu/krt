@@ -1,9 +1,10 @@
 import React from 'react';
+import History from './History';
 
 const Content = () => {
   return (
     <div className="content">
-      Content
+      <History />
     </div>
   )
 }
