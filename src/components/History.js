@@ -4,10 +4,13 @@ import p1 from '../img/1.png';
 import p2 from '../img/2.png';
 import p3 from '../img/3.png';
 import p4 from '../img/4.jpg';
+import p5 from '../img/5.jpg';
+import p6 from '../img/6.jpg';
 import './History.css';
 
 const History = () => {
   return (
+    <div className="fluid">
     <div className="wrap">
       <section className="history-container">
         <div className="h-content">
@@ -18,9 +21,7 @@ const History = () => {
           <p>В основе Конно-дзюку лежит сюри-тэ. На сегодняшний день известно множество разновидностей этого стиля. Школа Конно-дзюку сосредоточена на изначальных принципах, заложенных в истоках этих разновидностей.</p>
 
           <p>Поскольку на развитие сюри-тэ большое влияние оказало китайское ушу, окинавцы нередко объединяют понятия сёрин-рю (шаолинь) и сюритэ. Поэтому, с этой точки зрения,  в Конно-дзюку изучается сёрин-рю.</p>
-          <div>
-            <img src={p4} alt="s" />
-          </div>
+          <img src={p4} alt="s" />
         </div>
 
         <div className="photo-section">
@@ -33,7 +34,12 @@ const History = () => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+       <div className="fff">
+        <img src={p5} alt="s" />
+        <img src={p6} alt="s" />  
+      </div>    
+    </div>  
   )
 }
 

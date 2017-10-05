@@ -41,3 +41,12 @@
 .photo-section > div {
   line-height: 0;
 }
+
+.fff {
+  width: 50%;
+}
+
+.fff > img {
+  display: inline-block;
+  height: 382px;
+}
