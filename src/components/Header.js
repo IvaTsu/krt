@@ -1,6 +1,7 @@
 import React from 'react';
 
 import logo from '../img/logo.png';
+import { style } from '../constants';
 import './Header.css';
 
 class Header extends React.Component {
@@ -13,8 +14,8 @@ class Header extends React.Component {
             <img src={logo}/>
           </div>
           <div className="info">
-            <span>По любым вопросам</span>
-            <span>{phone_number}</span>
+            <span className="h-title">По любым вопросам</span>
+            <span className="h-number">{phone_number}</span>
           </div>
         </section>
       </header>

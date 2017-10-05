@@ -13,3 +13,17 @@
   align-items: center;
   height: 100%;
 }
+
+.h-title {
+  color: #d26a4e;
+  font-size: 16px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.h-number {
+  display: block;
+  font-size: 16px;
+  color: #595959;
+}
