@@ -1,0 +1,87 @@
+.slider {
+  height: 740px;
+  width: 100%;
+  background: #ddd;
+  position: absolute;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.slider .slide {
+  height: 740px;
+  width: 100%;
+}
+
+.dotsContainer {
+  position: absolute;
+  bottom: 10%;
+  height: 2px;
+  width: 100%;
+  text-align: center;
+  z-index: 99999;
+}
+
+.dotsContainer .dot {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.321;
+  height: 5px;
+  width: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 99999;
+}
+
+.dotsContainer > .isCurrent.dot {
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+.nextArrow {
+  position: absolute;
+  top: 50%;
+  right: 27%;
+  cursor: pointer;
+  transition: all ease-in .2s;
+  color: #fff;
+}
+
+.nextArrow:hover {
+  opacity: 0.5;
+  transform: scale(1.1);
+  transition: all ease-in .2s;
+}
+
+.rectangleOnSlide {
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.textOnSlide {
+  padding-top: 265px;
+  margin-left: 380px;
+  font-family: "RobotoSlab";
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.textOnSlide--bold {
+  font-weight: 600;
+}
+
+.lineOnSlide {
+  position: fixed;
+  top: 49%;
+  right: 0;
+}
