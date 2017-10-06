@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from './components/Header';
-import Slider from './components/Slider';
+import Slider from './components/Slider/Slider';
 import Content from './components/Content';
 import Footer from './components/Footer';
 import data from './data.json';
