@@ -85,3 +85,7 @@ h6 {
   top: 49%;
   right: 0;
 }
+
+.slider {
+    position: relative !important;
+}
