@@ -21,13 +21,10 @@ const Footer = (props) => {
           </div>
           <div className="f-box">
             <span className="f-box-title">Ищите нас в соцсетях</span>
-            <a className="social-links" href="/">
-              <i className="fa fa-vk" aria-hidden="true"></i>
-            </a>
-            <a className="social-links" href="/">
+            <a className="social-links" href="https://www.facebook.com/KonnoJukuUkraine">
               <i className="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a className="social-links" href="/">
+            <a className="social-links" href="https://www.instagram.com">
               <i className="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </div>
