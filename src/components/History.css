@@ -1,23 +1,20 @@
 .wrap {
   width: 1170px;
   margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
 }
 .photo-section {
     margin-top: -49px;
     z-index: 0000;
 }
 
-.history-container {
-  display: flex;
-  justify-content: flex-start;
-}
-
 .history-container > div {
   line-height: 0;
 }
 
-.h-content {
-  width: 580px;
+.h-content{
+  /* width: 580px; */
   padding: 80px 0 0 0;
 }
 .line {
@@ -28,13 +25,15 @@
   margin: 0 20px 9px 0;
 }
 
-.h-content h2 {
+.h-content h2,
+.our-way h2 {
   font-size: 30px;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
 
-.h-content p {
+.h-content p,
+.our-way p {
   font-size: 16px;
   line-height: 25px;
   font-weight: 300;
@@ -42,6 +41,10 @@
   padding-right: 125px;
 }
 
+.our-way {
+  width: 50%;
+  padding: 33px 0 0 0; 
+}
 .photo-section > div.section-p1 {
   line-height: 0;
 }
@@ -57,26 +60,100 @@
 
 .style {
   line-height: 20px;
-  padding: 80px 0 0 100px;
+  padding: 35px 0 0 100px;
+  font-weight: 100;
+  line-height: 24px;
 }
 
 .style p {
-  margin: 30px 0 30px 0;
+  margin: 10px 0 30px 0;
 }
 
 li{
   list-style: none;
 }
 
-.icon {
+.icon,
+.icon2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 39px;
+  margin-bottom: 31px;
 }
 
-.icon img {
+.icon img,
+.icon2 img {
   margin-right: 20px;
   width: 47px;
   display: inline-block;
+}
+
+.fff {
+  width: 50%;
+  margin-top: -332px;
+}
+
+.icon2 {
+  padding-right: 125px;
+  font-weight: 100;
+  line-height: 30px;
+}
+
+.right-section {
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+.photo-d {
+    position: relative;
+    height: 58.6vh;
+    margin-top: 60px;
+    display: block;
+}
+
+img.firstph {
+    position: absolute;
+    width: 34.5%;
+    display: inline-block;
+}
+img.secph {
+    position: absolute;
+    right: 0;
+    width: 65.5%;
+    display: inline-block;
+}
+
+img.budda {
+    position: absolute;
+    bottom: 0;
+    left: 34.5%;
+    width: 40.6%;
+}
+
+img.group2 {
+  width: 75.1%;
+}
+.view {
+  width: 87vh;
+}
+.view2 {
+  width: 50%;
+}
+img.view-2 {
+    width: 52.6vh;
+    margin-top: -4px;
+}
+
+.v {
+  width: 100%;
+}
+
+img.lf {
+    width: 114vh;
+    margin-top: -5px;
+}
+
+.last-photo {
+  line-height: 0;
 }

@@ -7,13 +7,20 @@ import p4 from '../img/4.jpg';
 import p5 from '../img/5.jpg';
 import icon1 from '../img//Icon master.png';
 import icon2 from '../img/Icon kimono.png';
+import icon3 from '../img/Icon japan.png';
+import icon4 from '../img/Icon karate.png';
+import icon5 from '../img/data.png';
+import group2 from '../img/gr2.jpg';
+import d2 from '../img/d123.jpg';
+import test from '../img/test.jpg';
+import m from '../img/m.jpg';
 import './History.css';
 
 const History = () => {
   return (
     <div className="fluid">
-    <div className="wrap">
       <section className="history-container">
+        <div className="wrap">
         <div className="h-content">
           
           <h2><span className="line"></span>История стиля</h2>
@@ -23,11 +30,6 @@ const History = () => {
 
           <p>Поскольку на развитие сюри-тэ большое влияние оказало китайское ушу, окинавцы нередко объединяют понятия сёрин-рю (шаолинь) и сюритэ. Поэтому, с этой точки зрения,  в Конно-дзюку изучается сёрин-рю.</p>
           <img src={p4} alt="s" />
-          <div className="fff">
-            <img
-              className="sk"
-              src={p5} alt="s" />
-          </div>      
         </div>
 
         <div className="photo-section">
@@ -63,9 +65,46 @@ const History = () => {
                 <span>Преподает каратэ Конно-дзюку, хомбу додзё которого находится в Токио</span>
               </div>
             </div>
+          </div>
+        </div>  
+          <div className="fff">
+            <img
+              className="sk"
+              src={p5} alt="s" />
+          </div>
+      </section>
+      <section className="second-section">
+        <div className="wrap">
+          <div className="our-way">
+            <h2><span className="line"></span>Наш путь</h2>
+            <p>В древности воинское искусство передавалось непосредственно от мастера - ученику, от сердца - к сердцу... </p>
+
+            <div className="icon2">
+              <img src={icon3} alt="" />
+              <span>Следуя этой традиции, мы совершаем поездки в Страну Восходящего Солнца, с целью получения знаний и обучению в духе старых традиций, от сердца - к сердцу....</span>
+            </div>
+            <div className="icon2">
+              <img src={icon4} alt="" />
+              <span>Порой невозможно понять ту или иную технику, не вникнув в историю и культуру, особенности отношения к жизни её создателей... Именно поэтому, наряду с изучением воинских искусств, мы стараемся глубже понять Японию, ее культуру и традиции...</span>
+            </div>
+            <div className="icon2">
+              <img src={icon5} alt="" />
+              <span>Мастера воинских искусств Страны Восходящего Солнца, уважая наш интерес, с огромным удовольствием посещают Украину, где щедро делятся своими знаниями и опытом...</span>
+            </div>
+            <img src={d2} alt="" className="v"/>
+          </div>
+          <div className="view2">
+            <img className="view" src={test} alt=" " />
+            <img className="view-2" src={group2} alt="" />
+          </div>
         </div>
-        </section>
-      </div>
+      </section>
+      <div className="wrap">
+        <div className="last-photo">
+          <img src={m} alt="" className="lf" />
+        </div>
+      </div> 
+
     </div>
   )
 }
