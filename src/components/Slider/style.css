@@ -82,8 +82,8 @@ h6 {
 
 .lineOnSlide {
   position: fixed;
-  top: 49%;
-  right: 0;
+  /* top: 49%;
+  right: 0; */
 }
 
 .slider {

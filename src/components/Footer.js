@@ -2,6 +2,7 @@ import React from 'react';
 
 import flogo from '../img/white_logo.png';
 import './Footer.css';
+import '../Mobile.css';
 
 const Footer = (props) => {
   return (
