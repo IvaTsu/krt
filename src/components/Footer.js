@@ -30,7 +30,8 @@ const Footer = (props) => {
             </a>
           </div>
         </div>
-      </section>  
+      </section>
+      <div className="copyright">Copyright © Karate Association in Ukraine</div>
     </div>
   )
 }
