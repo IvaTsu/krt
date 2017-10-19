@@ -15,7 +15,8 @@
 
 .h-content{
   /* width: 580px; */
-  padding: 80px 0 0 0;
+  padding: 150px 0 0 0;
+  position: relative;
 }
 .line {
   display: inline-block;
@@ -27,23 +28,25 @@
 
 .h-content h2,
 .our-way h2 {
-  font-size: 30px;
+  font-size: 30pt;
   margin-bottom: 50px;
   text-transform: uppercase;
+  font-family: 'Roboto Slab';
 }
 
 .h-content p,
 .our-way p {
-  font-size: 16px;
+  font-size: 16pt;
   line-height: 25px;
   font-weight: 300;
-  margin-bottom: 40px;
-  padding-right: 125px;
+  margin-bottom: 25pt;
+  padding-right: 80px;
+  font-family: 'Conv_ProximaNova-Light';
 }
 
 .our-way {
   width: 50%;
-  padding: 33px 0 0 0; 
+  margin-top: -117px;
 }
 .photo-section > div.section-p1 {
   line-height: 0;
@@ -55,22 +58,35 @@
 .sk {
   width: 100%;
   display: inline-block;
-  margin-top: -42px;
 }
 
 .style {
   line-height: 20px;
-  padding: 35px 0 35px 100px;
+  padding: 150px 0 150px 100px;
   font-weight: 100;
   line-height: 24px;
 }
 
-.style p {
-  margin: 10px 0 30px 0;
+.style h2 {
+  font-size: 30pt;
+  font-family: 'Roboto Slab';
+  text-transform: uppercase;
+  margin-bottom: 26pt;
 }
+.style p {
+  margin: 10px 0 26pt 0;
+  font-family: 'Conv_ProximaNova-Light';
+  font-size: 16pt;
 
+}
+ul {
+    margin-bottom: 26pt;
+}
 li{
   list-style: none;
+  font-family: 'Conv_ProximaNova-Light';
+  font-size: 16pt;
+  font-weight: 300;
 }
 
 .icon,
@@ -78,7 +94,9 @@ li{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 31px;
+  margin-bottom: 25pt;
+  font-size: 16pt;
+  font-family: 'Conv_ProximaNova-Light'
 }
 
 .icon img,
@@ -94,9 +112,11 @@ li{
 }
 
 .icon2 {
-  padding-right: 125px;
+  padding-right: 80px;
   font-weight: 100;
-  line-height: 30px;
+  font-size: 16pt;
+  line-height: 20pt;
+  font-family: 'Conv_ProximaNova-Light';
 }
 
 .right-section {
@@ -135,13 +155,14 @@ img.group2 {
   width: 75.1%;
 }
 .view {
-  width: 87vh;
+  width: 97vh;
 }
 .view2 {
   width: 50%;
+  line-height: 0;
 }
 img.view-2 {
-    width: 52.6vh;
+    width: 58.6vh;
     margin-top: -4px;
 }
 
@@ -157,10 +178,13 @@ img.lf {
 .last-photo {
   line-height: 0;
 }
+img.none {
+  width: 100%;
+}
 
-.copyright {
-    background: #cb5333;
-    color: white;
-    text-align: center;
-    padding-bottom: 20px;
+img.sk {
+  position: absolute;
+  bottom: 16%;
+  left: -65%;
+  width: 165%;
 }

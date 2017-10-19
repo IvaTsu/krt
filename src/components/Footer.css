@@ -9,13 +9,14 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
   flex: 1;
 }
 
 .f-info {
   display: flex;
   justify-content: flex-end;
+  margin-top: 65px;
 }
 
 .f-box {
@@ -44,4 +45,16 @@
     color: #cb5433;
     font-size: 18px;
     text-align: center;
+}
+.f-logo {
+    margin-top: 55px;
+}
+.lineOnSlide {
+  display: none;
+}
+.copyright {
+    background: #cb5333;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
 }

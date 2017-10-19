@@ -55,7 +55,11 @@
 
   }
   .h-content {
-    padding: 80px 20px !important;
+    /* padding: 150px 0 48px 20px !important; */
+    padding: 150px  0 0 0 !important;
+  }
+  .sup-div {
+    padding: 0 10px 48px 10px;
   }
   .h-content h2,
   .style h2,
@@ -93,6 +97,8 @@
   }
   .sk {
     margin-top: 0 !important;
+    width: 100% !important;
+    margin-bottom: 49px;
   }
   .last-p {
     margin-bottom: 0 !important;
@@ -103,6 +109,7 @@
   .our-way {
     width: 100% !important;
     padding: 33px 0 0 0  !important;
+    margin-top: 0 !important;
   }
   .our-way p,
   .our-way h2,
@@ -137,6 +144,7 @@
     flex-direction: column !important;
     justify-content: flex-start !important;
     margin-bottom: 50px !important;
+    margin-top: 0 !important;
   }
   .f-box {
     margin-top: 30px;
@@ -149,5 +157,10 @@
     font-weight: bold;
     font-size: 16px !important;
   }
-  
+  img.sk {
+    position: relative !important;
+    bottom: 0% !important;
+    left: 0% !important;
+    width: 100%;
+  }
 }

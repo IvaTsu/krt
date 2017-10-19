@@ -22,14 +22,18 @@ const History = () => {
       <section className="history-container">
         <div className="wrap">
         <div className="h-content">
-          
+          <div className="sup-div">
           <h2><span className="line"></span>История стиля</h2>
           <p>Старое окинавское каратэ делилось три  направления – сюри-тэ, наха-тэ, и томари-тэ.</p>
 
           <p>В основе Конно-дзюку лежит сюри-тэ. На сегодняшний день известно множество разновидностей этого стиля. Школа Конно-дзюку сосредоточена на изначальных принципах, заложенных в истоках этих разновидностей.</p>
 
           <p>Поскольку на развитие сюри-тэ большое влияние оказало китайское ушу, окинавцы нередко объединяют понятия сёрин-рю (шаолинь) и сюритэ. Поэтому, с этой точки зрения,  в Конно-дзюку изучается сёрин-рю.</p>
+            </div>    
           <img className="none" src={p4} alt="s" />
+            <img
+              className="sk"
+              src={p5} alt="s" />
         </div>
 
         <div className="photo-section">
@@ -39,7 +43,7 @@ const History = () => {
           </div>
           <div className="section-p2">
             <img src={p3} alt="3" />
-          </div>
+            </div>
           <div className="style">
               <h2><span className="line"></span>Основатель стиля</h2>
               <p>Основатель стиля <b>Конно Сатоси</b> родился на Хоккайдо в 1955 году, окончил университет «Дзёти», где изучал стиль Сито-рю под руководством сихана Ито Сиро.</p>
@@ -67,11 +71,6 @@ const History = () => {
             </div>
           </div>
         </div>  
-          <div className="fff">
-            <img
-              className="sk"
-              src={p5} alt="s" />
-          </div>
       </section>
       <section className="second-section">
         <div className="wrap">
